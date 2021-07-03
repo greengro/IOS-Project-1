@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GreengroveCarsonHW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carson Greengrove" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szK-Oj-7wA" userLabel="NameLabel">
+                                <rect key="frame" x="16" y="20" width="343" height="75.5"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="ProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="8U7-dh-vZu">
+                                <rect key="frame" x="16" y="115.5" width="343" height="341"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="I am a senior CSBA student who is currently in Palos Verdes for the semester." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz3-g5-8yz">
+                                <rect key="frame" x="16" y="476.5" width="343" height="170.5"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67631148138892305" green="1" blue="0.66106795066678892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sz3-g5-8yz" firstAttribute="top" secondItem="8U7-dh-vZu" secondAttribute="bottom" constant="20" id="0WD-uk-ziQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Sz3-g5-8yz" secondAttribute="bottom" constant="20" id="1Sw-lX-YON"/>
+                            <constraint firstItem="8U7-dh-vZu" firstAttribute="leading" secondItem="szK-Oj-7wA" secondAttribute="leading" id="IfG-jC-gjl"/>
+                            <constraint firstItem="8U7-dh-vZu" firstAttribute="trailing" secondItem="szK-Oj-7wA" secondAttribute="trailing" id="Ku3-oF-5jO"/>
+                            <constraint firstItem="szK-Oj-7wA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QBk-SL-FHE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="szK-Oj-7wA" secondAttribute="trailing" constant="16" id="UMu-vd-DGz"/>
+                            <constraint firstItem="8U7-dh-vZu" firstAttribute="top" secondItem="szK-Oj-7wA" secondAttribute="bottom" constant="20" id="YAf-UO-hgL"/>
+                            <constraint firstItem="Sz3-g5-8yz" firstAttribute="height" secondItem="8U7-dh-vZu" secondAttribute="height" multiplier="1:2" id="aej-hD-NgF"/>
+                            <constraint firstItem="Sz3-g5-8yz" firstAttribute="trailing" secondItem="szK-Oj-7wA" secondAttribute="trailing" id="kAL-rV-ieB"/>
+                            <constraint firstItem="szK-Oj-7wA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="l0S-UF-hxA"/>
+                            <constraint firstItem="8U7-dh-vZu" firstAttribute="height" secondItem="szK-Oj-7wA" secondAttribute="height" multiplier="4.5:1" id="mYZ-EL-vHX"/>
+                            <constraint firstItem="Sz3-g5-8yz" firstAttribute="leading" secondItem="szK-Oj-7wA" secondAttribute="leading" id="wTa-vb-0fN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.125" y="111.97183098591549"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ProfilePic" width="400" height="533"/>
+    </resources>
+</document>
